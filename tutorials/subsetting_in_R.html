@@ -1,0 +1,66 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+      <h1>Subsetting Objects w/ R</h1>
+      <p>
+	Whenever you use R to deal with high-throughput sequencing data you
+	will without a doubt run into complex data-frame objects.  These objects
+	essentially take all the information from the HTS experiment and store
+	it into a single object.
+      </p>
+      <p>
+	Below is an example of such an object:
+	<br>
+	<img src="../img/ExpressionSet_example.png" alt="ExpressionSet">
+	<br>
+      </p>
+      <p>
+	The <em>expressionSet</em> object is often used for Microarray data but
+	different types of data anaysis packages may create other names for
+	their object.  All in all each of these different object types are
+	simply a way to store multiple data types into a single object.  I will
+	now discuss how to subset the data from the object in the image	shown
+	above.  
+      </p>
+      <p>
+	The first thing to do would be to understand the meaning behind each of
+	the names.  For example, under <em>phenoData</em> we can see that there
+	is <em>sampleNames</em>, <em>varLabels</em> and <em>varMetadata</em>.
+	If you want to see the types of data stored in <em>sampleNames</em> you
+	would need to type in <code>sampleNames(chr2L)</code>.
+	<br>
+	Note: chr2L is the name that this particular <em>expressionSet</em>
+	object is identified by.
+	<br>
+	
+      </p>
+      <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+	
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+          (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+          function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+          e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+          e.src='https://www.google-analytics.com/analytics.js';
+          r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+          ga('create','UA-79729732-1','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
