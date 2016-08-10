@@ -95,7 +95,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+body {
+    font-family: arial;
+    background-color: rgb(229, 210, 172);}
+h1 {
+    color: rgb(191, 76, 0);}
 
 
 
