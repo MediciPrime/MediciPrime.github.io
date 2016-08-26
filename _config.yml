@@ -10,7 +10,7 @@ description: A blog about what I have picked up along the way.
 external-image: false
 picture: assets/images/profile.jpg
 
-url: http://www.marsonmymind.com
+url: http://marsonmymind.com
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
