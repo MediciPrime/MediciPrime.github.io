@@ -16,7 +16,7 @@ layout: page
     <li>Python - Java</li>
 	<li>Flask (WTForms, SQLAlchemy, Jinja2)</li>
 	<li>HTML - CSS (Bootstrap, Sass)</li>
-	<li>JavaScript (d3.js, React)</li>
+	<li>JavaScript (d3.js, Angular 4)</li>
     <li>RESTful API</li>
 	<li>Git</li>
 	<li>MySQL - SQLite</li>
