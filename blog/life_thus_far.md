@@ -1,6 +1,7 @@
 ---
 title: Life Thus Far
 layout: page
+blog: true
 permalink: /blog/life_thus_far.md
 ---
 
