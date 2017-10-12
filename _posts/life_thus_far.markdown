@@ -2,6 +2,7 @@
 title: Life Thus Far
 layout: page
 blog: true
+date: 2017-10-11
 permalink: /blog/life_thus_far.md
 ---
 
