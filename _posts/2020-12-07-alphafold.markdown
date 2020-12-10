@@ -18,9 +18,9 @@ proteins. This provided the DeepMind team with enough raw data to train their Al
 of almost all the amino acid chains presented at CASP2020. 
 
 What's very surprising about these results is that AlphaFold doesn't actually understand the concept of an amino acid, it simply 
-knows that amino acid sequence X is statistically likely to fold in a certain way. Now despite the hype, this problem still isn't completely
-solved since AlphaFold struggled with some amino acid sequences. Now I am sure that most crystallographer will tell you that having a fairly 
-accurate prediction greatly aids in helping them decode what an X-ray image of the protein is showing you. This will certainly result in a positive feedback 
-loop where AlphaFold will speed up the discovery of protein structures and in turn the additional protein structures will improve AlphaFold. 
+knows that amino acid sequence X is statistically likely to fold in a certain way. Despite the hype this problem isn't completely
+solved, since AlphaFold struggled with some amino acid sequences. However I am sure that most crystallographers will tell you that having a fairly 
+accurate prediction greatly aids in helping them decode what an X-ray image of the protein is showing them. This will certainly result in a positive feedback 
+loop where AlphaFold will speed up the discovery of protein structures and in turn the additional confirmed protein structures will improve AlphaFold. 
 I am excited for the possibilities but I am also a little apprehensive since AI is starting to hit a lot closer to home thus making me wonder what else it
 can do. 
